@@ -1,0 +1,168 @@
+/* 
+Website Name: Favourite Food
+Website Author: Shalil Dsilva
+Student id: 0810045 
+
+Color Guide:
+rgb(255, 255, 255) - White
+rgb(0, 0, 0) - Black
+hsla(203, 20%, 84%, 0.5) - Light Grey
+
+Typography Guide:
+Body: Verdana, Geneva, Tahoma, sans-serif - 1.2em;
+
+
+*********************************
+=================
+Table of Contents
+=================
+1. Header Styles 
+2. Body Styles
+
+*********************************
+*/
+
+/*******************
+1. Header Styles 
+********************/
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 0px;
+}
+
+
+/*******************
+2. Body Styles 
+********************/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    line-height: normal;
+    background-color: hsla(203, 20%, 84%, 0.5);
+    padding: 10px 15px;
+}
+
+h2 {
+    font-size: 1.6em;
+    position: sticky;
+    top: 66px;
+    background-color: rgb(0, 0, 0);
+    border-top: solid 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+h3 {
+    font-size: 1.4em;
+    padding: 40px 0px 15px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: smaller;
+    padding: 2px;
+}
+
+
+/* article */
+
+article:first-of-type {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+figure:first-child{
+    float: left;
+    padding-right: 50px;
+}
+
+figure:first-child figcaption{
+    position: relative;
+    right: 65px;
+}
+
+article:last-of-type {
+    clear: both;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+article:last-of-type figure {
+    padding-bottom: 25px;
+}
+
+article:last-of-type p {
+    text-align: left;
+}
+
+
+/* aside */
+
+aside {
+    max-width: 900px;
+    margin: auto;
+}
+
+aside h2,
+figure {
+    text-align: center;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+ul li::before {
+    content: "\2022";
+    padding-right: 5px;
+}
+
+ul li:first-of-type {
+    padding-top: 2px;
+}
+
+ol li {
+    list-style: decimal;
+    margin-left: 25px;
+}
+
+
+/* Links */
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
